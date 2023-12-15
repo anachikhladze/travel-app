@@ -69,9 +69,11 @@ struct DestinationDetailView: View {
         }
         
         .alert("Stay Safe!", isPresented: $showingTipAlert) {
-            // Default Ok button
+            // Default "Ok" button
         } message: {
             Text(TravelTips.travelTips.randomElement() ?? "")
         }
     }
 }
+
+

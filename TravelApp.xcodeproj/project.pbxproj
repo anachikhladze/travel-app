@@ -88,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				A178E9CE2B2A27BB00A01929 /* TravelModel.swift */,
-				A102324E2B2C99B400C03FFF /* Views */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -114,6 +113,7 @@
 			children = (
 				A14723912B2B5BF600020B3B /* App */,
 				A14723922B2B5C0000020B3B /* Model */,
+				A102324E2B2C99B400C03FFF /* Views */,
 				A178E9BB2B2A18FE00A01929 /* Assets.xcassets */,
 				A178E9BD2B2A18FE00A01929 /* Preview Content */,
 			);
