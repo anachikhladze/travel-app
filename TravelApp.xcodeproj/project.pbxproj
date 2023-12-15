@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10232502B2C99E500C03FFF /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102324F2B2C99E500C03FFF /* CustomButtonView.swift */; };
 		A147238C2B2B2E2800020B3B /* HotelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A147238B2B2B2E2800020B3B /* HotelView.swift */; };
 		A147238E2B2B322200020B3B /* TransportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A147238D2B2B322200020B3B /* TransportView.swift */; };
 		A14723902B2B322E00020B3B /* MustSeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A147238F2B2B322E00020B3B /* MustSeeView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A102324F2B2C99E500C03FFF /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		A147238B2B2B2E2800020B3B /* HotelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelView.swift; sourceTree = "<group>"; };
 		A147238D2B2B322200020B3B /* TransportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportView.swift; sourceTree = "<group>"; };
 		A147238F2B2B322E00020B3B /* MustSeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MustSeeView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A102324E2B2C99B400C03FFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A10232522B2C9A6600C03FFF /* View */,
+				A10232512B2C9A4C00C03FFF /* Screen */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A10232512B2C9A4C00C03FFF /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				A178E9C62B2A19E000A01929 /* MainScreenView.swift */,
+				A178E9CA2B2A1F5E00A01929 /* DestinationDetailView.swift */,
+				A147238B2B2B2E2800020B3B /* HotelView.swift */,
+				A147238D2B2B322200020B3B /* TransportView.swift */,
+				A147238F2B2B322E00020B3B /* MustSeeView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		A10232522B2C9A6600C03FFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A178E9C82B2A1B7500A01929 /* DestinationCellView.swift */,
+				A102324F2B2C99E500C03FFF /* CustomButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A14723912B2B5BF600020B3B /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				A178E9CE2B2A27BB00A01929 /* TravelModel.swift */,
+				A102324E2B2C99B400C03FFF /* Views */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -81,7 +114,6 @@
 			children = (
 				A14723912B2B5BF600020B3B /* App */,
 				A14723922B2B5C0000020B3B /* Model */,
-				A178E9C52B2A19AF00A01929 /* Views */,
 				A178E9BB2B2A18FE00A01929 /* Assets.xcassets */,
 				A178E9BD2B2A18FE00A01929 /* Preview Content */,
 			);
@@ -94,19 +126,6 @@
 				A178E9BE2B2A18FE00A01929 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A178E9C52B2A19AF00A01929 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				A178E9C62B2A19E000A01929 /* MainScreenView.swift */,
-				A178E9C82B2A1B7500A01929 /* DestinationCellView.swift */,
-				A178E9CA2B2A1F5E00A01929 /* DestinationDetailView.swift */,
-				A147238B2B2B2E2800020B3B /* HotelView.swift */,
-				A147238D2B2B322200020B3B /* TransportView.swift */,
-				A147238F2B2B322E00020B3B /* MustSeeView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +201,7 @@
 				A178E9CF2B2A27BB00A01929 /* TravelModel.swift in Sources */,
 				A147238E2B2B322200020B3B /* TransportView.swift in Sources */,
 				A178E9C92B2A1B7500A01929 /* DestinationCellView.swift in Sources */,
+				A10232502B2C99E500C03FFF /* CustomButtonView.swift in Sources */,
 				A178E9C72B2A19E000A01929 /* MainScreenView.swift in Sources */,
 				A178E9B82B2A18FC00A01929 /* TravelAppApp.swift in Sources */,
 				A14723902B2B322E00020B3B /* MustSeeView.swift in Sources */,

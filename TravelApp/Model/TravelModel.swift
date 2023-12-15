@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct City: Identifiable {
+struct City: Identifiable, Hashable {
     var id = UUID()
     var name: String
     var description: String
@@ -79,4 +79,19 @@ struct CityData {
         )
     ]
     
+}
+
+struct TravelTips {
+    static let travelTips = [
+        "Pack light and smart. Only bring essentials.",
+        "Always carry a photocopy of your important documents.",
+        "Inform your bank about your travel plans to avoid any issues with your credit/debit cards.",
+        "Learn a few basic phrases in the local language for better communication.",
+        "Keep a portable charger for your electronic devices.",
+        "Stay hydrated, especially during long flights.",
+        "Research local customs and traditions before visiting a new country.",
+        "Use a money belt or hidden pouch to keep your valuables safe.",
+        "Keep a small first aid kit with essentials like band-aids and pain relievers.",
+        "Stay aware of your surroundings and trust your instincts.",
+    ]
 }

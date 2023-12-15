@@ -27,16 +27,6 @@ struct DestinationCellView: View {
                 Text(city.description)
                     .font(.subheadline)
                     .lineLimit(1)
-                
-                NavigationLink {
-                    VStack {
-                        DestinationDetailView(city: city)
-                    }
-                    
-                } label: {
-                    Text("Details")
-                }
-                .font(.callout)
             }
             
             Spacer()

@@ -1,5 +1,5 @@
 //
-//  HotelView.swift
+//  MustSeeView.swift
 //  TravelApp
 //
 //  Created by Anna Sumire on 14.12.23.
@@ -7,11 +7,13 @@
 
 import SwiftUI
 
-struct HotelView: View {
+struct MustSeeView: View {
     var city: City
+    @Binding var path: NavigationPath
+    
     var body: some View {
         VStack(spacing: 10) {
-            Image(city.hotelImage)
+            Image(city.mustSeeImage)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 320, height: 320)
@@ -22,14 +24,14 @@ struct HotelView: View {
                 .fontWeight(.semibold)
                 .minimumScaleFactor(0.5)
             
-            Text(city.hotel)
+            Text(city.mustSee)
                 .font(.subheadline)
                 .padding()
             
             Spacer()
             
             Button(action: {
-                
+                path = NavigationPath()
             }) {
                 Text("Back to main page")
                     .font(.headline)
